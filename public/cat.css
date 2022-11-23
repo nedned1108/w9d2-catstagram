@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cat_image {
+    width: 100%;
+}
+
+.new_cat_button {
+    color: red;
+}
