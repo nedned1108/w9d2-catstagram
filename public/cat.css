@@ -4,10 +4,69 @@ body {
     align-items: center;
 }
 
+.title {
+    background-image: linear-gradient(blue, purple, red);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
 .cat_image {
-    width: 100%;
+    width: 50%;
+    border: 5px solid black;
+    border-radius: 10px;
 }
 
 .new_cat_button {
-    color: red;
+    
 }
+
+.like_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons_panel {
+    display: flex;
+    column-gap: 10px;
+}
+
+.like_title {
+    margin: 5px;
+    padding: 5px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+#like_num {
+    font-size: 20px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 100%;
+    background-color: aqua;
+}
+
+.comment_panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#comment-list {
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid black;
+    width: 400px;
+    height: 100px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: whitesmoke;
+}
+
